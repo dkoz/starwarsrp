@@ -1,0 +1,15 @@
+"starwarsrp"
+{
+	"base"		"darkrp"
+    "title"  "StarwarsRP"
+    "version"   "1.0"
+    "menusystem"	"1"
+
+    "author_name"   "Kozejin"
+    "author_email"  ""
+    "author_url"    ""
+
+    "icon"  ""
+    "info"  ""
+    "hide"  "0"
+}
