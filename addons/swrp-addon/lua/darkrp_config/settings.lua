@@ -146,9 +146,9 @@ GM.Config.respawninjail                 = true
 -- restrictallteams - Enable/disable Players can only be citizen until an admin allows them.
 GM.Config.restrictallteams              = false
 -- restrictbuypistol - Enabling this feature makes /buy available only to Gun Dealers.
-GM.Config.restrictbuypistol             = false
+GM.Config.restrictbuypistol             = true
 -- restrictdrop - Enable/disable restricting the weapons players can drop. Setting this to true disallows weapons from shipments from being dropped.
-GM.Config.restrictdrop                  = false
+GM.Config.restrictdrop                  = true
 -- revokeLicenseOnJobChange - Whether licenses are revoked when a player changes jobs.
 GM.Config.revokeLicenseOnJobChange      = true
 -- shouldResetLaws - Enable/Disable resetting the laws back to the default law set when the mayor changes.
@@ -497,7 +497,7 @@ GM.Config.hideNonBuyable = false
 -- Hide only the items that you have the wrong job for (or for which the customCheck says no).
 -- When you set this option to true and hideNonBuyable to false, you WILL see e.g. items that are too expensive for you to buy.
 -- but you won't see gundealer shipments when you have the citizen job.
-GM.Config.hideTeamUnbuyable = true
+GM.Config.hideTeamUnbuyable = false
 
 --[[---------------------------------------------------------------------------
 AFK module
